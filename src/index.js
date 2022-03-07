@@ -40,3 +40,57 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+//nav links
+
+const links = document.querySelectorAll("nav a")
+links.forEach((link) => {
+  link.classList.add("italic")
+})
+
+
+const navLink1 = document.querySelector("nav a:nth-of-type(1)")
+navLink1.textContent = 'Services'
+
+const navLink2 = document.querySelector("nav a:nth-of-type(2)")
+navLink2.textContent = 'Product'
+
+const navLink3 = document.querySelector("nav a:nth-of-type(3)")
+navLink3.textContent = 'Vision'
+
+const navLink4 = document.querySelector("nav a:nth-of-type(4)")
+navLink4.textContent = 'Features'
+
+const navLink5 = document.querySelector("nav a:nth-of-type(5)")
+navLink5.textContent = 'About'
+
+const navLink6 = document.querySelector("nav a:nth-of-type(6)")
+navLink6.textContent = 'Contact'
+
+//images
+
+const logoTitle = document.querySelector(".logo")
+logoTitle.src="http://localhost:9000/img/logo.png"
+
+const circleImage = document.getElementById('cta-img')
+circleImage.src="http://localhost:9000/img/cta.png"
+
+const middleImg = document.querySelector(".middle-img")
+middleImg.src = "http://localhost:9000/img/accent.png"
+
+//title and button
+
+const mainTitle = document.querySelector("h1")
+mainTitle.textContent = "DOM Is Awesome"
+
+const getStartedButton = document.querySelector("button")
+getStartedButton.textContent = "Get Started"
+
+//main content
+
+const features = document.querySelector("h4:nth-of-type(1)")
+features.textContent =  "Features"
+
+console.log(document.querySelector("p:nth-of-type(2)"))
+
+
