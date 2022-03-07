@@ -88,10 +88,21 @@ getStartedButton.textContent = "Get Started"
 
 //main content
 
-const features = document.querySelector("h4:nth-of-type(1)")
-features.textContent =  "Features"
+const smallTitles = document.querySelectorAll("h4")
+smallTitles[0].textContent =  "Features"
+smallTitles[1].textContent =  "About"
+smallTitles[2].textContent =  "Services"
+smallTitles[3].textContent =  "Product"
+smallTitles[4].textContent =  "Vision"
 
-console.log(document.querySelector("p:nth-of-type(2)"))
+
+const textBoxes = document.querySelectorAll("p")
+textBoxes[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+textBoxes[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+textBoxes[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+textBoxes[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+textBoxes[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
 
 //footer
 
