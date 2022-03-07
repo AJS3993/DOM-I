@@ -93,4 +93,23 @@ features.textContent =  "Features"
 
 console.log(document.querySelector("p:nth-of-type(2)"))
 
+//footer
+
+const contact = document.querySelector(".contact h4")
+contact.textContent = "Contact"
+
+const address = document.querySelector(".contact p:nth-of-type(1)")
+address.textContent = "123 Way 456 Street Somewhere, USA"
+
+const phone = document.querySelector(".contact p:nth-of-type(2)")
+phone.textContent = "1 (888) 888-8888"
+
+const email = document.querySelector(".contact p:nth-of-type(3)")
+email.textContent = "sales@greatidea.io"
+
+const copyright = document.querySelector("footer a")
+copyright.textContent = "Copyright Great Idea! 2021"
+
+
+
 
