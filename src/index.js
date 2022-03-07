@@ -120,6 +120,7 @@ email.textContent = "sales@greatidea.io"
 
 const copyright = document.querySelector("footer a")
 copyright.textContent = "Copyright Great Idea! 2021"
+copyright.classList.add("bold")
 
 
 
